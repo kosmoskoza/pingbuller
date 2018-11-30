@@ -1,0 +1,641 @@
+*{  
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1680px) {
+    .arrow {
+        width: 80%;
+    }
+
+    .arrow-right {
+        margin-right: 40px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .arrow {
+        width: 90%;
+    }
+}
+    
+@media screen and (max-width: 1024px) {
+    .arrow {
+        width: 99%;
+    }
+    
+    .arrow-left {
+        margin-left: 25px;
+    }
+    
+    .text-position {
+        margin-left: 45px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .arrow {
+        width: 99%;
+    }
+    
+    .arrow-left {
+        margin-left: 5px;
+    }
+    
+    .arrow-right {
+        margin-right: 5px;
+    }
+    
+    .pos-logo{
+        margin-left: 5px;
+    }
+    
+    .pos-speech {
+        margin-left: 30px;
+    }
+    
+    .text-pos-foot {
+        margin-right: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    .bg {
+        height: 800px;
+    }
+    
+    .main {
+        float: left; 
+        margin-left: 6px;
+    }
+    
+    .pos-logo {
+        margin-left: 21px;
+    }
+    
+    .bg2 {
+        margin-top: 175px;
+    }
+    
+        .title {
+        font-size: 48px;
+    }
+    
+    .subtitle {
+        font-size: 24px;
+        width: 271px;
+        height: 23px;
+        overflow: hidden;
+        margin-top: 8px;
+    }
+    
+     .text {
+        height: 90px;
+        width: 271px;
+        font-size: 16px;
+        overflow: hidden;
+        word-wrap: break-word;
+        margin-top: 18px;
+    }
+    
+    .arrow {
+        width: 100%;
+    }
+    
+    .arrow-left {
+        margin-left: 5px;
+        width: 22px;
+        height: 34px;
+    }
+    
+    .arrow-right {
+        margin-right: 5px;
+        width: 23px;
+        height: 34px;
+    }
+    
+    .navigation {
+        margin-top: 38px;
+        margin-right: 170px;
+    }
+    
+    .text-position {
+        margin-top: 103px;
+        margin-left: 44px;
+    }
+    
+     .pos-about {
+        margin-left: 34px;
+    }
+    
+     .about1 {
+        margin-left: 35px;
+    }
+    
+     .title-about {
+        font-size: 24px;
+    }
+    
+     .text-about {
+        width: 151px;
+        height: 161px;
+        overflow: hidden;
+    }
+    
+    .read-more1 {
+        margin-left: 91px;
+    }
+    
+    .text-ping {
+       font-size: 24px;
+    }
+    
+    .text-star {
+       font-size: 24px;
+       margin: 57px 0px 0px -79px;
+    }
+    
+    .text-nunc {
+        width: 247px;
+        height: 143px;
+        overflow: hidden;
+        margin-top: 18px;
+    }
+    
+    .speech {
+        height: 272px;
+    }
+    
+    .pos-speech {
+        margin-left: 44px;
+    }
+    
+    .nunc-title {
+        font-size: 16px;
+    }
+    
+    .nunc-text {
+        font-size: 16px;
+        width: 252px;
+        height: 18px;
+        overflow: hidden;
+        letter-spacing: -0.5px;
+    }
+    
+    .navigation2 {
+        margin-top: -10px;
+        margin-left: 160px;
+    }
+    
+    .box-title {
+        font-size: 46px;
+    }
+    
+    .box-title2 {
+        font-size: 46px;
+    }
+    
+    .copy {
+        font-size: 11px;
+        margin-top: 18px;
+    }
+    
+    .text-templ {
+        width: 204px;
+        letter-spacing: -0.5px;
+    }
+    
+     .box-title4 {
+        font-size: 24px;
+    }
+    
+     .text-templ2 {
+        width: 206px;
+        height: 215px;
+        letter-spacing: -0.5px;
+        overflow: hidden;
+    }
+    
+    .box-text {
+        margin-left: 20px;
+    }
+    
+    .main-footer {
+        margin-left: 20px;
+    }
+    
+    .text-pos-foot {
+        margin-right: 21px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .pos-logo {
+        margin-left: 0;
+        float: none;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .main {
+        z-index: 999;
+    }
+    
+    .main {
+        min-width: 0px;
+    }
+    
+    .menu-link {
+        font-size: 18px;
+    }
+    
+    .menu-item {
+        display: none;
+    }
+    
+    .menu-adaptive {
+        display: block;
+    }
+    
+    .bg2 {
+        margin-top: 25px;
+        height: 228px;
+    }
+    
+    .telefon {
+        width: 133px;
+        height: 289px;
+        margin-left: 45px;
+    }
+    
+    .button2 {
+        width: 49px;
+        height: 49px;
+        margin-top: 104px;
+        margin-left: 42px;
+    }
+    
+    .button1 {
+        width: 33px;
+        height: 33px;
+        margin-top: -41px;
+        margin-left: 50px;
+    }
+    
+    .telefon2 {
+        width: 77px;
+        height: 153px;
+        margin-right: 130px;
+        margin-top: 59px;
+    }
+    
+    .text {
+        display: none;
+    }
+    
+    .title {
+        font-size: 36px;
+    }
+    
+    .subtitle {
+        font-size: 18px;
+        width: 215px;
+        margin-top: 3px;
+    }
+    
+    .text-position {
+        margin-top: 80px;
+        margin-left: 40px;
+    }
+    
+    .bg {
+        height: 551px;
+    }
+    
+    .navigation {
+        margin-top: 23px;
+        margin-right: 195px;
+    }
+    
+    .arrow-left {
+        margin-top: -190px;
+    }
+    
+    .arrow-right {
+        margin-top: -190px;
+    }
+    
+    .text-about {
+        width: 350px;
+        height: 65px;
+        overflow: hidden;
+    }
+    
+    .read-more1 {
+        margin-left: 270px;
+        position: absolute;
+        margin-top: 120px;
+    }
+    
+    .about1 {
+        margin-top: 73px;
+        margin-bottom: 0px;
+        margin-left: -59px;
+    }
+    
+    .about2 {
+        margin-top: -28px;
+        margin-bottom: 0px;
+        margin-left: -40px;
+    }
+    
+     .about3 {
+        margin-top: -28px;
+        margin-bottom: 0px;
+        margin-left: -50px;
+    }
+    
+    .text-nunc {
+        width: 342px;
+        height: 170px;
+        overflow: hidden;
+        margin-top: 18px;
+        letter-spacing: -0.5px;
+    }
+    
+    .text-ping {
+        font-size: 30px;
+    }
+    
+    .text-star {
+        font-size: 30px;
+            margin: 32px 0px 0px 7px;
+    }
+    
+    .pos-speech {
+        margin-left: 38px;
+            margin-top: 61px;
+    }
+    
+    .navigation2 {
+        margin-top: -340px;
+        margin-left: 200px;
+    }
+    
+    .recent {
+        margin-top: 90px;
+        margin-left: 80px;
+    }
+    
+    .bllabong {
+        margin: 38px 0px 0px 85px;
+    }
+    
+    .dg {
+        margin: 38px 0px 0px 53px;
+    }
+    
+    .pine {
+        margin: 38px 80px 0px 53px;
+    }
+    
+    .awsm {
+        margin: 27px 0px 41px 58px;
+    }
+    
+    .rvca {
+        margin: 45px 0px 0px 15px;
+    }
+    
+    .vonziper {
+        margin: 27px 55px 0px 0px;
+    }
+    
+    .text-templ {
+        width: 437px;
+    }
+    
+    .text-templ2 {
+        width: 437px;
+        height: 90px;
+        letter-spacing: -0.5px;
+        overflow: hidden;
+        margin-top: 19px;
+    }
+    
+    .box-text1 {
+        padding-top: 82px;
+        padding-bottom: 0px;
+    }
+    
+     .box-text2 {
+        padding-top: 60px;
+        padding-bottom: 0px;
+    }
+    
+    .box-text3 {
+        padding-top: 60px;
+        padding-bottom: 88px;
+    }
+    
+    .menu-item2 {
+        display: block;
+    }
+
+    .main-footer {
+        letter-spacing: -0.9px;
+        margin-top: 25px;
+    }
+    
+    .text-pos-foot {
+        margin-top: 39px;
+        margin-left: 171px;
+    }
+    
+    footer {
+        height: 201px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    
+    .container {
+        padding-top: 67px;
+    }
+    
+    .pos-logo {
+        margin-left: 0;
+        float: none;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .menu-adaptive {
+        margin-left: 0;
+        margin-bottom: 111px;
+    }
+    
+    .menu {
+        width: 150px;
+        margin-left: 86px;
+    }
+    
+    .line {
+        margin: 3px 0px 0px 52px;
+    }
+    
+    .menu ul {
+        width: 150px;
+    }
+    
+    .bg2 {
+        height: 0px;
+        background-color: rgba(0, 0, 0, 0.0);
+    }
+    
+    .telefon {
+        display: none;
+    }
+    
+    .telefon2 {
+        display: none;
+    }
+    
+    .text-position {
+        margin-top: 0px;
+        margin-left: 66px;
+    }
+    
+    .arrow-left {
+        margin-top: -70px;
+    }
+    
+    .arrow-right {
+        margin-top: -79px;
+    }
+    
+    .navigation {
+        margin-top: 81px;
+        margin-right: 124px;
+    }
+    
+    .bg {
+        height: 517px;
+    }
+    
+    .text-about {
+        width: 191px;
+        height: 65px;
+        overflow: hidden;
+    }
+    
+    .read-more1 {
+        margin-left: 154px;
+        position: absolute;
+        margin-top: 120px;
+    }
+    
+    .about1 {
+        margin-top: 73px;
+        margin-left: 42px;
+    }
+    
+    .about2 {
+         margin-top: -20px; 
+         margin-left: 42px; 
+    }
+    
+    .about3 {
+         margin-top: -20px; 
+         margin-bottom: 30px; 
+         margin-left: 42px; 
+    }
+    
+    .text-ping {
+        font-size: 24px;
+    }
+    
+    .text-star {
+        font-size: 24px;
+        margin: 60px 0px 0px -79px;
+    }
+    
+    .text-nunc {
+        width: 175px;
+        height: 170px;
+        overflow: hidden;
+        margin-top: 10px;
+        letter-spacing: -0.5px;
+    }
+    
+    .speech {
+        height: 285px;
+    }
+    
+    .navigation2 {
+        margin-top: -330px;
+        margin-left: 125px;
+    }
+    
+    .nunc-title {
+        width: 200px;
+        height: 30px;
+        overflow: hidden;
+    }
+    
+    .nunc-text {
+        margin-top: -8px;
+        width: 205px;
+        height: 22px;
+    }
+    
+    .recent {
+        margin-top: 90px;
+        margin-left: 22px;
+    }
+    
+    .line1 {
+        margin-top: 91px;
+    }
+    
+    .bg5 {
+        display: none;
+    }
+    
+    .bllabong {
+        margin: 38px 0px 0px 61px;
+    }
+    
+    .dg {
+        margin: 38px 61px 0px 53px;
+    }
+    
+    .pine {
+        margin: 62px 0px 0px 45px;
+    }
+    
+    .awsm {
+        margin: 64px 56px 0px 32px;
+    }
+    
+    .rvca {
+        margin: 63px 0px 0px 37px;
+    }
+    
+    .vonziper {
+        margin: 43px 42px 60px 0px;
+    }
+    
+    .main-footer {
+        display: none;
+    }
+    
+    .text-pos-foot {
+        margin-top: 42px;
+        margin-left: 91px;
+        position: absolute;
+    }
+}
